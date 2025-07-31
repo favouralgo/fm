@@ -255,18 +255,21 @@ useEffect(() => {
         <section className="about" id="about">
           <div className="container">
             <div className="about-content">
+              <div className="about-image">
+                <img src={favourImage} alt="favour_image" />
+              </div>
               <div className="about-text">
-              <h2 className="section-title">About Favour</h2>
-              <p style={{ textAlign: "justify" }}> Hi, I’m Favour. I am a first class graduate in Management Information Systems with a peculiar focus in Computer Science from Ashesi University. 
+                <h2 className="section-title">About Favour</h2>
+                <p style={{ textAlign: "justify" }}> Hi, I’m Favour. I am a first class graduate in Management Information Systems with a peculiar focus in Computer Science from Ashesi University. 
                 I am a Software Engineer (Data & AI) and a Digital Health Advocate.
-                A fun fact about me is that I started my IT journey working at a cybercafe for my uncle from the age of 12; I reached and won the fastest level of Mavis Beacon Penguin Crossing game (I bet you can't beat my typing speed!). 
+                {/* A fun fact about me is that I started my IT journey working at a cybercafe for my uncle from the age of 12; I reached and won the fastest level of Mavis Beacon Penguin Crossing game (I bet you can't beat my typing speed!).  */}
                   </p>
-              <br />
-              <p> My research interests revolve around Biomedical Informatics, (Bio) Statistics, and Health Data Science domains.</p>
-              <br />
-              <p>At the side, I am building my healthcare startup <strong> <a href="https://canisa-health-wesbite.vercel.app/" target='_blank'>CANISA HEALTH.</a> </strong>Our flagship product <strong> <a href="https://kurabill.com/" target='_blank'>KURABILL</a> </strong> will be launching soon.</p>
-              <br />
-              <p>When I’m not doing the serious stuff, I love to hike, cycle or explore nature.</p>
+                <br />
+                <p> My research interests revolve around Biomedical Informatics, (Bio) Statistics, and Health Data Science domains.</p>
+                <br />
+                <p>At the side, I am building my healthcare startup <strong> <a href="https://canisa-health-wesbite.vercel.app/" target='_blank'>CANISA HEALTH.</a> </strong>Our flagship product <strong> <a href="https://kurabill.com/" target='_blank'>KURABILL</a> </strong> will be launching soon.</p>
+                <br />
+                {/* <p>When I’m not doing the serious stuff, I love to hike, cycle or explore nature.</p> */}
 
                 <div className="about-stats">
                   <br />
@@ -291,9 +294,7 @@ useEffect(() => {
                   </div>
                 </div>
               </div>
-              <div className="about-image">
-                <img src={favourImage} alt="favour_image" />
-              </div>
+              
             </div>
           </div>
         </section>
