@@ -1,6 +1,6 @@
 # Revamped porfolio website
 
-## List of images used
+## List of images for projects used
 
 - Canisa Health
 - Kurabill
