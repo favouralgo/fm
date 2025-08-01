@@ -265,7 +265,7 @@ useEffect(() => {
               <div className="about-text">
                 <h2 className="section-title">About Favour</h2>
                 <p style={{ textAlign: "justify" }}> Hi, I’m Favour. I am a first class graduate in Management Information Systems with a peculiar focus in Computer Science from Ashesi University. 
-                I am a Software Engineer (Data & AI) and a Digital Health Advocate.
+                I am a Software & AI Engineer and a Digital Health Advocate.
                 {/* A fun fact about me is that I started my IT journey working at a cybercafe for my uncle from the age of 12; I reached and won the fastest level of Mavis Beacon Penguin Crossing game (I bet you can't beat my typing speed!).  */}
                   </p>
                 <br />
@@ -381,26 +381,140 @@ useEffect(() => {
         <section className="projects" id="projects">
           <div className="container">
             <h2 className="section-title">Featured Research and Award</h2>
-            <p>Research is all about showing the world what could be</p>
-            <div className="projects-grid">
-                  <div className="project-card">
-                        <div class="project-img">
-                          <img src= {customerChurnImage} alt="Customer Churn Prediction" />
-                        </div>
-                      <div className="project-content">
+            <p>Research is all about showing the world what possibilities exists. Awards are by-products of excellence.</p>
+                <div className="projects-grid">
+                      <div className="project-card">
+                          <div class="project-img">
+                            <img src= {customerChurnImage} alt="Customer Churn Prediction" />
+                          </div>
+                        <div className="project-content">
                           <div class="project-links">
                             <span className="tech-tag">Research</span>
                             <a href="https://canisa-health-wesbite.vercel.app/" target="_blank"><i class="fas fa-external-link-alt"></i> Read Here</a>
                           </div>
-                        <br />
-                        <p className="project-desc">A health platform aimed at helping patients manage their hypertension through accurate health data entry and analysis of symptoms</p>
-                          <div className="project-tech">
-                            <span className="tech-tag">HTML</span>
-                          </div>
+                          <br />
+                          <p className="project-desc">A health platform aimed at helping patients manage their hypertension through accurate health data entry and analysis of symptoms</p>
+                        </div>
                       </div>
-                  </div>
+                      <div className="project-card">
+                          <div class="project-img">
+                            <img src= {customerChurnImage} alt="Customer Churn Prediction" />
+                          </div>
+                        <div className="project-content">
+                          <div class="project-links">
+                            <span className="tech-tag">Research</span>
+                            <a href="https://canisa-health-wesbite.vercel.app/" target="_blank"><i class="fas fa-external-link-alt"></i> Read Here</a>
+                          </div>
+                          <br />
+                          <p className="project-desc">A health platform aimed at helping patients manage their hypertension through accurate health data entry and analysis of symptoms</p>
+                        </div>
+                      </div>
 
-            </div>
+                        <div className="project-card">
+                          <div class="project-img">
+                            <img src= {customerChurnImage} alt="Customer Churn Prediction" />
+                          </div>
+                          <div className="project-content">
+                            <div class="project-links">
+                              <span className="tech-tag">Award - Oxford University, ISF Finalist</span>
+                            </div>
+                            <br />
+                            <p className="project-desc">Health Entrepreneurship Stream, Oxford Africa Conference 2024 Finalist</p>
+                          </div>
+                        </div>
+
+                        <div className="project-card">
+                          <div class="project-img">
+                            <img src= {customerChurnImage} alt="Customer Churn Prediction" />
+                          </div>
+                          <div className="project-content">
+                            <div class="project-links">
+                              <span className="tech-tag">Award - Mastercard Foundation Scholar 2025</span>
+                            </div>
+                            <br />
+                            <p className="project-desc">Awarded a fully-funded MCF scholarship to pursue undergraduate studies at Ashesi University Ghana.</p>
+                          </div>
+                        </div>
+
+                        <div className="project-card">
+                          <div class="project-img">
+                            <img src= {customerChurnImage} alt="Customer Churn Prediction" />
+                          </div>
+                          <div className="project-content">
+                            <div class="project-links">
+                              <span className="tech-tag">Award - Yale PATHS Scholar 2025</span>
+                            </div>
+                            <br />
+                            <p className="project-desc">Selected as a scholar by the Yale School of Medicine for preparation towards launching a career in the Biomedical Sciences</p>
+                          </div>
+                        </div>
+
+                        <div className="project-card">
+                          <div class="project-img">
+                            <img src= {customerChurnImage} alt="Customer Churn Prediction" />
+                          </div>
+                          <div className="project-content">
+                            <div class="project-links">
+                              <span className="tech-tag">Award - 25Under25 Health Innovator Nominee, 2024</span>
+                            </div>
+                            <br />
+                            <p className="project-desc">Selected as a nominee for the 25Under25 Digital Health Innovator award in Nigeria under the Health and Care Category</p>
+                          </div>
+                        </div>
+
+                        <div className="project-card">
+                          <div class="project-img">
+                            <img src= {customerChurnImage} alt="Customer Churn Prediction" />
+                          </div>
+                          <div className="project-content">
+                            <div class="project-links">
+                              <span className="tech-tag">Award - 1st Place, 2023</span>
+                            </div>
+                            <br />
+                            <p className="project-desc">InnoTech, African Digital Health Community Health Innovation Bootcamp. Community Health Innovation for lung disease prediction in low-resourced community</p>
+                          </div>
+                        </div>
+
+                        <div className="project-card">
+                          <div class="project-img">
+                            <img src= {customerChurnImage} alt="Customer Churn Prediction" />
+                          </div>
+                          <div className="project-content">
+                            <div class="project-links">
+                              <span className="tech-tag">Award - 2nd Place, Design & Entrepreneurship Fair 2022</span>
+                            </div>
+                            <br />
+                            <p className="project-desc">Designed a prototype, <strong>HelpSpace</strong>, which is an EdTech solution for overcrowded universities in Ghana for maximized resource sharing</p>
+                          </div>
+                        </div>
+
+                        <div className="project-card">
+                          <div class="project-img">
+                            <img src= {customerChurnImage} alt="Customer Churn Prediction" />
+                          </div>
+                          <div className="project-content">
+                            <div class="project-links">
+                              <span className="tech-tag">Award - 3rd Place, Design Thinking Hackathon, 2022</span>
+                            </div>
+                            <br />
+                            <p className="project-desc">Built and deployed<strong>#BITS</strong> - an E-commerce application - to enable students buy and sell re-usable items within communities</p>
+                          </div>
+                        </div>
+
+                         <div className="project-card">
+                          <div class="project-img">
+                            <img src= {customerChurnImage} alt="Customer Churn Prediction" />
+                          </div>
+                          <div className="project-content">
+                            <div class="project-links">
+                              <span className="tech-tag">Award - 3rd Place, EduHack Hackathon, 2022</span>
+                            </div>
+                            <br />
+                            <p className="project-desc">Utilized the design thinking approach to prototype a study application for students with low-attention span and ADHD tendencies to enable focused learning.</p>
+                          </div>
+                        </div>
+                        
+                </div>
           </div>
         </section>
 
@@ -410,7 +524,7 @@ useEffect(() => {
         <section className="experience" id="experience">
           <div className="container">
             <h2 className="section-title">Professional Experience</h2>
-            <p>My journey has been characterized with a commitment learning while building hands-on projects</p>
+            <p>My professional timeline while learning and building hands-on projects</p>
 
             <div className="timeline">
               <div class="timeline-item">
