@@ -269,7 +269,7 @@ useEffect(() => {
                 {/* A fun fact about me is that I started my IT journey working at a cybercafe for my uncle from the age of 12; I reached and won the fastest level of Mavis Beacon Penguin Crossing game (I bet you can't beat my typing speed!).  */}
                   </p>
                 <br />
-                <p> My research interests revolve around Biomedical Informatics, (Bio) Statistics, and Health Data Science domains.</p>
+                <p> My research interests revolve around Biomedical & Health Informatics, (Bio) Statistics, and Health Data Science domains.</p>
                 <br />
                 <p>At the side, I am building my healthcare startup <strong> <a href="https://canisa-health-wesbite.vercel.app/" target='_blank'>CANISA HEALTH.</a> </strong>Our flagship product <strong> <a href="https://kurabill.com/" target='_blank'>KURABILL</a> </strong> will be launching soon.</p>
                 <br />
