@@ -143,7 +143,7 @@ useEffect(() => {
     };
   }, []);
 
-  //this useEffect for back to top button visibility
+  //Back to top button visibility
 useEffect(() => {
   const handleScroll = () => {
     const backToTop = document.querySelector('.back-to-top');
@@ -158,7 +158,7 @@ useEffect(() => {
   return () => window.removeEventListener('scroll', handleScroll);
 }, []);
 
-  //this useEffect for active section highlighting
+  //Active section highlighting
 useEffect(() => {
   const handleScroll = () => {
     const sections = ['home', 'about', 'skills','research', 'experience', 'projects', 'contact'];
@@ -193,8 +193,6 @@ useEffect(() => {
       <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
       
       <div className="portfolio-container">
-
-
         {/* Stars Background */}
         <div className="stars" id="stars">
         {stars.map((star) => (
@@ -218,7 +216,9 @@ useEffect(() => {
           <div className="container">
             <nav>
             {/* Attach clickable url Link to name */}
-              <div className="logo"><a href="#home">Favour <span> Madubuko</span></a></div>
+              <div className="logo">
+                <a href="#home">Favour <span> Madubuko</span></a>
+              </div>
               <ul className={`nav-links ${isMenuOpen ? 'active' : ''}`} id="navLinks">
                 <li><a href="#home" className={activeSection === 'home' ? 'active' : ''}>Home</a></li>
                 <li><a href="#about" className={activeSection === 'about' ? 'active' : ''}>About</a></li>
@@ -228,6 +228,11 @@ useEffect(() => {
                 <li><a href="#projects" className={activeSection === 'projects' ? 'active' : ''}>Projects</a></li>
                 <li><a href="#contact" className={activeSection === 'contact' ? 'active' : ''}>Contact</a></li>
               </ul>
+
+              {/* <div className="theme-toggle" onClick={toggleTheme}>
+                <i className={`fas ${theme === 'dark' ? 'fa-sun' : 'fa-moon'}`}></i>
+              </div> */}
+
               <div className="menu-toggle" onClick={() => setIsMenuOpen(!isMenuOpen)}>
                 <i className={`fas ${isMenuOpen ? 'fa-times' : 'fa-bars'}`}></i>
               </div>
@@ -247,7 +252,6 @@ useEffect(() => {
               </div>
             </div>
             <div className="cosmic-circle"></div>
-            <div className="orbit"></div>
           </div>
         </section>
 
@@ -302,9 +306,9 @@ useEffect(() => {
         {/* Skills Section */}
         <section className="skills" id="skills">
           <div className="container">
-            <h2 className="section-title">My Skills</h2>
-            <p>My skill set that bridges technical expertise with human-centered understanding.</p>
-            
+            <h2 className="section-title">Technical Expertise</h2>
+            <p>My skill set that bridges technical expertise with design thinking.</p>
+
             <div className="skills-container">
               <div className="skill-category">
                 <h3><i className="fas fa-code"></i> Programming Languages</h3>
@@ -347,7 +351,9 @@ useEffect(() => {
                 <div class="skill-category">
                     <h3><i class="fas fa-laptop-code"></i> Web & Software Development</h3>
                     <ul class="skill-list">
+                        <li>System Design</li>
                         <li>Django</li>
+                        <li>FastAPI</li>
                         <li>Vercel</li>
                         <li>Netlify</li>
                         <li>Streamlit</li>
@@ -371,7 +377,36 @@ useEffect(() => {
           </div>
         </section>
 
+        {/* Research Section */}
+        <section className="projects" id="projects">
+          <div className="container">
+            <h2 className="section-title">Featured Research and Award</h2>
+            <p>Research is all about showing the world what could be</p>
+            <div className="projects-grid">
+                  <div className="project-card">
+                        <div class="project-img">
+                          <img src= {customerChurnImage} alt="Customer Churn Prediction" />
+                        </div>
+                      <div className="project-content">
+                          <div class="project-links">
+                            <span className="tech-tag">Research</span>
+                            <a href="https://canisa-health-wesbite.vercel.app/" target="_blank"><i class="fas fa-external-link-alt"></i> Read Here</a>
+                          </div>
+                        <br />
+                        <p className="project-desc">A health platform aimed at helping patients manage their hypertension through accurate health data entry and analysis of symptoms</p>
+                          <div className="project-tech">
+                            <span className="tech-tag">HTML</span>
+                          </div>
+                      </div>
+                  </div>
+
+            </div>
+          </div>
+        </section>
+
+
         {/* Experience Section */}
+        {/* https://clustrmaps.com/add */}
         <section className="experience" id="experience">
           <div className="container">
             <h2 className="section-title">Professional Experience</h2>
