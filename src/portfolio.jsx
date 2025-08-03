@@ -396,19 +396,34 @@ useEffect(() => {
                           <p className="project-desc">A health platform aimed at helping patients manage their hypertension through accurate health data entry and analysis of symptoms</p>
                         </div>
                       </div>
-                      <div className="project-card">
+
+                       <div className="project-card">
                           <div class="project-img">
                             <img src= {customerChurnImage} alt="Customer Churn Prediction" />
                           </div>
                         <div className="project-content">
                           <div class="project-links">
-                            <span className="tech-tag">Research</span>
+                            <span className="tech-tag">Research manuscript in progress</span>
                             <a href="https://canisa-health-wesbite.vercel.app/" target="_blank"><i class="fas fa-external-link-alt"></i> Read Here</a>
                           </div>
                           <br />
                           <p className="project-desc">A health platform aimed at helping patients manage their hypertension through accurate health data entry and analysis of symptoms</p>
                         </div>
                       </div>
+
+                        <div className="project-card">
+                          <div class="project-img">
+                            <img src= {customerChurnImage} alt="Customer Churn Prediction" />
+                          </div>
+                         <div className="project-content">
+                          <div class="project-links">
+                            <span className="tech-tag">Research Project</span>
+                            <a href="https://canisa-health-wesbite.vercel.app/" target="_blank"><i class="fas fa-external-link-alt"></i> Read Here</a>
+                          </div>
+                          <br />
+                          <p className="project-desc">A health platform aimed at helping patients manage their hypertension through accurate health data entry and analysis of symptoms</p>
+                         </div>
+                       </div>
 
                         <div className="project-card">
                           <div class="project-img">
