@@ -6,9 +6,9 @@
             --dark: #121212;
             --light: #f4f9ff;
             --space-bg: #041a2d;
-            --space-light: #082945;
+            --space-light: #dceefe;
             --space-accent: #0fb8d8;
-            --text: #e0e6ed;
+            --text: #000000;
         }
         
         * {
@@ -615,7 +615,7 @@
         }
 
         .contact-item i {
-            background-color: rgba(5, 173, 220, 0.1);
+            background-color: rgba(0, 0, 0, 0.1);
             color: var(--primary);
             width: 50px;
             height: 50px;
@@ -643,8 +643,8 @@
         .form-control {
             width: 100%;
             padding: 15px;
-            background-color: rgba(255, 255, 255, 0.1);
-            border: 1px solid rgba(255, 255, 255, 0.2);
+            background-color: rgba(160, 159, 159, 0.1);
+            border: 1px solid rgba(232, 232, 232, 0.2);
             border-radius: 5px;
             color: var(--light);
             font-family: inherit;
@@ -654,11 +654,11 @@
         .form-control:focus {
             outline: none;
             border-color: var(--primary);
-            background-color: rgba(255, 255, 255, 0.15);
+            background-color: rgba(147, 147, 147, 0.15);
         }
 
         .form-control::placeholder {
-            color: rgba(255, 255, 255, 0.5);
+            color: rgba(0, 0, 0, 0.5);
         }
 
         .form-status {
