@@ -5,7 +5,7 @@
             --secondary: #32b8cd;
             --dark: #121212;
             --light: #f4f9ff;
-            --space-bg: #041a2d;
+            --space-bg: #dceefe;
             --space-light: #dceefe;
             --space-accent: #0fb8d8;
             --text: #000000;
@@ -24,8 +24,8 @@
             line-height: 1.6;
             overflow-x: hidden;
             background-image: 
-                radial-gradient(circle at 20% 35%, rgba(9, 53, 95, 0.8) 0%, transparent 30%),
-                radial-gradient(circle at 75% 44%, rgba(4, 57, 94, 0.7) 0%, transparent 40%);
+                radial-gradient(circle at 20% 35%, rgba(185, 221, 255, 0.8) 0%, transparent 30%),
+                radial-gradient(circle at 75% 44%, rgba(184, 224, 253, 0.7) 0%, transparent 40%);
         }
 
         .container {
