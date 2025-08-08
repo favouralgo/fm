@@ -378,7 +378,7 @@ useEffect(() => {
         </section>
 
         {/* Research Section */}
-        <section className="projects" id="projects">
+        <section className="projects" id="research">
           <div className="container">
             <h2 className="section-title">Featured Research and Award</h2>
             <p>Research is all about showing the world what possibilities exists. Awards are by-products of excellence.</p>
@@ -434,7 +434,7 @@ useEffect(() => {
                               <span className="tech-tag">Award - Oxford University, ISF Finalist</span>
                             </div>
                             <br />
-                            <p className="project-desc">Health Entrepreneurship Stream, Oxford Africa Conference 2024 Finalist</p>
+                            <p className="project-desc">Health Entrepreneurship Stream, Oxford Africa Conference Innovation Seed Fund Finalist, 2024</p>
                           </div>
                         </div>
 
@@ -512,7 +512,7 @@ useEffect(() => {
                               <span className="tech-tag">Award - 3rd Place, Design Thinking Hackathon, 2022</span>
                             </div>
                             <br />
-                            <p className="project-desc">Built and deployed<strong>#BITS</strong> - an E-commerce application - to enable students buy and sell re-usable items within communities</p>
+                            <p className="project-desc">Built and deployed <strong>#BITS</strong> - an E-commerce application - to enable students buy and sell re-usable items within communities</p>
                           </div>
                         </div>
 
