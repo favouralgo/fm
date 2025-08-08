@@ -244,7 +244,7 @@ useEffect(() => {
         <section className="hero" id="home">
           <div className="container">
             <div className="hero-content">
-              <h1>Tinkering with Solutions around healthcare, data and technology</h1>
+              <h1>Tinkering with solutions around healthcare, data and technology</h1>
               <p>My interdisciplinary interest revolves around <span className="typed-text">{typedText}</span></p>
               <div className="hero-buttons">
                 <a href="#projects" className="btn">My Work</a>
