@@ -279,8 +279,8 @@ useEffect(() => {
                   <br />
                   <div className="stat">
                     <h3>Education</h3>
-                    <p>BSc. MIS, Ashesi University</p>
-                    <p>UC Berkeley, Entrepreneurship & Technology (exchange program, Spring 2024)</p>
+                    <p>BSc. MIS Ashesi University Ghana, 2025</p>
+                    <p>UC Berkeley, Entrepreneurship & Technology, Spring 2024</p>
                   </div>
                   <div className="stats">
                     <div className="stat-box">
@@ -307,31 +307,28 @@ useEffect(() => {
         <section className="skills" id="skills">
           <div className="container">
             <h2 className="section-title">Technical Expertise</h2>
-            <p>My skill set that bridges technical expertise with design thinking.</p>
+            <p>My skill set bridges technical expertise with design thinking. I am tool agnostic, as long as it solves the problem at hand.</p>
 
             <div className="skills-container">
               <div className="skill-category">
                 <h3><i className="fas fa-code"></i> Programming Languages</h3>
                 <ul className="skill-list">
+                        <li>PHP</li>
+                        {/* <li>Java</li> */}
                         <li>Python</li>
                         <li>JavaScript</li>
-                        <li>SQL</li>
-                        <li>HTML, CSS, PHP</li>
-                        <li>React</li>
-                        <li>TypeScript</li>
-                        <li>NextJS</li>
                 </ul>
               </div>
               
               <div className="skill-category">
                 <h3><i className="fas fa-brain"></i> AI & Machine Learning</h3>
                 <ul className="skill-list">
-                        <li>Tensorflow</li>
                         <li>Keras</li>
-                        <li>scikit-learn</li>
                         <li>PyTorch</li>
-                        <li>API Integration</li>
+                        <li>Tensorflow</li>
+                        <li>scikit-learn</li>
                         <li>Deep Learning</li>
+                        <li>API Integration</li>
                         <li>Neural Networks</li>
                 </ul>
               </div>
@@ -340,25 +337,27 @@ useEffect(() => {
                     <h3><i class="fas fa-chart-bar"></i> Data & Tools</h3>
                     <ul class="skill-list">
                         <li>R</li>
-                        <li>Pandas</li>
-                        <li>Matplotlib</li>
-                        <li>Seaborn</li>
+                        <li>SQL</li>
                         <li>NumPy</li>
-                        <li>Excel</li>
+                        <li>Pandas</li>
+                        <li>Seaborn</li>
+                        <li>MS Excel</li>
+                        <li>Matplotlib</li>                        
                     </ul>
                 </div>
 
                 <div class="skill-category">
                     <h3><i class="fas fa-laptop-code"></i> Web & Software Development</h3>
                     <ul class="skill-list">
-                        <li>System Design</li>
-                        <li>Django</li>
-                        <li>FastAPI</li>
-                        <li>Vercel</li>
-                        <li>Netlify</li>
-                        <li>Streamlit</li>
-                        <li>MySQL</li>
                         <li>Git</li>
+                        <li>React</li>
+                        <li>MySQL</li>
+                        <li>Vercel</li>
+                        <li>Django</li>
+                        <li>NextJS</li>
+                        <li>FastAPI</li>
+                        <li>Streamlit</li>
+                        <li>TypeScript</li>                     
                     </ul>
                 </div>
                 
@@ -368,9 +367,9 @@ useEffect(() => {
                         <li>Research</li>
                         <li>Teamwork</li>
                         <li>Communication</li>
+                        <li>Design Thinking</li>
                         <li>Problem-Solving</li>
                         <li>Product Management</li>
-                        <li>Design Thinking</li>
                     </ul>
                 </div>
             </div>
