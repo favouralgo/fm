@@ -301,7 +301,7 @@ useEffect(() => {
                 <br />
                 <p> My research interests revolve around Biomedical & Health Informatics, (Bio) Statistics, and Health Data Science domains.</p>
                 <br />
-                <p>At the side, I am building my healthcare startup <strong> <a href="https://canisa-health-wesbite.vercel.app/" target='_blank'>CANISA HEALTH.</a> </strong>Our flagship product <strong> <a href="https://kurabill.com/" target='_blank'>KURABILL</a> </strong> will be launching soon.</p>
+                <p>At the side, I am building my healthcare startup <strong> <a href="https://canisa-health-wesbite.vercel.app/" target='_blank'>CANISA HEALTH <i class="fas fa-external-link-alt"></i></a> </strong>Our flagship product <strong> <a href="https://kurabill.com/" target='_blank'>KURABILL</a> <i class="fas fa-external-link-alt"></i></strong> will be launching soon.</p>
                 <br />
                 {/* <p>When I’m not doing the serious stuff, I love to hike, cycle or explore nature.</p> */}
 
