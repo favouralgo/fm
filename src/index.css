@@ -726,7 +726,7 @@
 
         /* Footer */
         footer {
-            background-color: var(--space-bg);
+            background-color: var(--primary-dark);
             padding: 30px 0;
             text-align: center;
         }
