@@ -217,7 +217,7 @@ useEffect(() => {
             <nav>
             {/* Attach clickable url Link to name */}
               <div className="logo">
-                <a href="#home">Favour <span> Madubuko</span></a>
+                <a href="#home"> <strong>Favour</strong><span> Madubuko</span></a>
               </div>
               <ul className={`nav-links ${isMenuOpen ? 'active' : ''}`} id="navLinks">
                 <li><a href="#home" className={activeSection === 'home' ? 'active' : ''}>Home</a></li>
@@ -292,7 +292,7 @@ useEffect(() => {
                       <div className="stat-label">Major Projects</div>
                     </div>
                     <div className="stat-box">
-                      <div className="stat-number">15+</div>
+                      <div className="stat-number">11+</div>
                       <div className="stat-label">Tech Skills</div>
                     </div>
                   </div>
@@ -389,10 +389,10 @@ useEffect(() => {
                         <div className="project-content">
                           <div class="project-links">
                             <span className="tech-tag">Research</span>
-                            <a href="https://canisa-health-wesbite.vercel.app/" target="_blank"><i class="fas fa-external-link-alt"></i> Read Here</a>
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Read Here</a>
                           </div>
                           <br />
-                          <p className="project-desc">A health platform aimed at helping patients manage their hypertension through accurate health data entry and analysis of symptoms</p>
+                          <p className="project-desc">Open-Source Retrieval Augmented Generation (RAG) Framework for Retrieving Accurate Medication Insights from Formularies for African Healthcare Workers</p>
                         </div>
                       </div>
 
@@ -403,10 +403,10 @@ useEffect(() => {
                         <div className="project-content">
                           <div class="project-links">
                             <span className="tech-tag">Research manuscript in progress</span>
-                            <a href="https://canisa-health-wesbite.vercel.app/" target="_blank"><i class="fas fa-external-link-alt"></i> Read Here</a>
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Read Here</a>
                           </div>
                           <br />
-                          <p className="project-desc">A health platform aimed at helping patients manage their hypertension through accurate health data entry and analysis of symptoms</p>
+                          <p className="project-desc">Evaluating machine learning algorithms for detecting and predicting antimicrobial resistance (AMR) from whole genome sequences</p>
                         </div>
                       </div>
 
@@ -417,10 +417,10 @@ useEffect(() => {
                          <div className="project-content">
                           <div class="project-links">
                             <span className="tech-tag">Research Project</span>
-                            <a href="https://canisa-health-wesbite.vercel.app/" target="_blank"><i class="fas fa-external-link-alt"></i> Read Here</a>
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Read Here</a>
                           </div>
                           <br />
-                          <p className="project-desc">A health platform aimed at helping patients manage their hypertension through accurate health data entry and analysis of symptoms</p>
+                          <p className="project-desc">Exploring the relationship between alcohol consumption and obesity</p>
                          </div>
                        </div>
 
@@ -544,9 +544,10 @@ useEffect(() => {
               <div class="timeline-item">
                 <div class="timeline-date">July 2025 - Present</div>
                 <h3 class="timeline-title">AI Engineering Intern</h3>
-                <p class="timeline-subtitle"> <a href="https://yemaachi.com/" target="_blank" rel="noopener noreferrer">Yemaachi Biotechnology (YC S21)</a> - Accra, Ghana</p>
+                <p class="timeline-subtitle"> <a href="https://yemaachi.com/" target="_blank" rel="noopener noreferrer"> <strong>Yemaachi Biotechnology (YC S21)</strong> <i class="fas fa-external-link-alt"></i></a> - Accra, Ghana</p>
                 <ul>
                     <li>Working within the Bioinformatics and AI team to conduct research and document approaches to implement deep learning algorithms capable of cancer mutation detection</li>
+                    <li>Developing machine learning & bioinformatics pipelines to predict novel cancer mutations.</li>
                     <li>Implementing the Graph Convolutional Networks to test out research hypotheses related to cancer genomics and drug response prediction</li>
                 </ul>
             </div>
@@ -554,7 +555,7 @@ useEffect(() => {
               <div class="timeline-item">
                     <div class="timeline-date">May 2024 - June 2025</div>
                     <h3 class="timeline-title">Data Scientist (Machine Learning Focus) </h3>
-                    <p class="timeline-subtitle"> <a href="https://axumai.org/" target="_blank" rel="noopener noreferrer">Axum AI</a> - Illinois, USA</p>
+                    <p class="timeline-subtitle"> <a href="https://axumai.org/" target="_blank" rel="noopener noreferrer"> <strong>Axum AI</strong> <i class="fas fa-external-link-alt"></i></a> - Illinois, USA</p>
                     <ul>
                         <li>Developed an NER-based document extraction pipeline that improved medical data accuracy by 40%, streamlining drug-related information retrieval.</li>
                         <li>Fine-tuned LLMs for pharmaceutical applications, reducing query response time by 20% while maintaining domain-specific accuracy.</li>
@@ -566,7 +567,7 @@ useEffect(() => {
                 <div class="timeline-item">
                     <div class="timeline-date">January 2024 - May 2024</div>
                     <h3 class="timeline-title">Data Science Intern</h3>
-                    <p class="timeline-subtitle"> <a href="https://beta.torneos.gg/en" target="_blank" rel="noopener noreferrer">Gamefort</a> - Delaware, USA</p>
+                    <p class="timeline-subtitle"> <a href="https://beta.torneos.gg/en" target="_blank" rel="noopener noreferrer"> <strong>Gamefort</strong> <i class="fas fa-external-link-alt"></i></a> - Delaware, USA</p>
                     <ul>
                         <li>Boosted gamer retention by 10% across 5K+ active users by deploying Support Vector Machine algorithm to personalize betting experiences.</li>
                         <li>Spearheaded MVP launch in 2 weeks, driving 30% higher engagement and 15% lower churn through cross-functional collaboration between team and CEO.</li>
@@ -578,7 +579,7 @@ useEffect(() => {
                 <div class="timeline-item">
                     <div class="timeline-date">January 2024</div>
                     <h3 class="timeline-title">Research & Data Intern</h3>
-                    <p class="timeline-subtitle"> <a href="http://www.redish.com" target="_blank" rel="noopener noreferrer">Re:Dish</a> - California, USA</p>
+                    <p class="timeline-subtitle"> <a href="http://www.redish.com" target="_blank" rel="noopener noreferrer"> <strong>Re:Dish</strong> <i class="fas fa-external-link-alt"></i></a> - California, USA</p>
                     <ul>
                         <li>Led a cross-functional team of 5 business and engineering students to analyze low reusable plastic adoption in California, identifying key barriers (cost, convenience, awareness) through primary research and market analysis</li>
                         <li>Developed 10 actionable solutions (e.g., incentive programs, retail partnerships) based on research insights, improving the stakeholder’s go-to-market strategy by 25%</li>
@@ -590,7 +591,7 @@ useEffect(() => {
                 <div class="timeline-item">
                     <div class="timeline-date">September 2023 - December 2023</div>
                     <h3 class="timeline-title">Founder-in-Residence</h3>
-                    <p class="timeline-subtitle"> <a href="https://www.futurize.studio/futurizeu" target='_blank'>Futurize Incubator</a> - England, United Kingdom</p>
+                    <p class="timeline-subtitle"> <a href="https://www.futurize.studio/futurizeu" target='_blank'> <strong>Futurize Incubator</strong> <i class="fas fa-external-link-alt"></i></a> - England, United Kingdom</p>
                     <ul>
                         <li>Selected for Futurize’s HealthTech incubator, a first-of-its-kind program in Africa, supported by AstraZeneca and Bristol Myers Squibb.</li>
                         <li>Researched & validated Canisa Health (a chronic disease management platform) through customer discovery, competitive analysis, and regulatory compliance frameworks.</li>
@@ -602,7 +603,7 @@ useEffect(() => {
                 <div class="timeline-item">
                     <div class="timeline-date">September 2022 - February 2023</div>
                     <h3 class="timeline-title">Co-founder and Strategy Lead</h3>
-                    <p class="timeline-subtitle"> <a href="http://myscholarshub.org" target='_blank'> <strong>myScholarsHub</strong></a></p>
+                    <p class="timeline-subtitle"> <a href="http://myscholarshub.org" target='_blank'> <strong>myScholarsHub</strong> <i class="fas fa-external-link-alt"></i></a> - Accra, Ghana</p>
                     <ul>
                         <li>Launched a college EdTech advisory and consultant platform connecting high-school students with with great academic potential from low-income backgrounds to scholarship opportunities.</li>
                         <li>Secured $1000 seed funding from the Coca-Cola Foundation, and managed budget/financial allocation for product development and student outreach programs.</li>
@@ -613,7 +614,7 @@ useEffect(() => {
                 <div class="timeline-item">
                     <div class="timeline-date">June 2022 - July 2022</div>
                     <h3 class="timeline-title">Project Management Intern</h3>
-                    <p class="timeline-subtitle">African Leadership Academy - South Africa</p>
+                    <p class="timeline-subtitle"> <a href="http://www.africanleadershipacademy.org" target="_blank" rel="noopener noreferrer"> <strong>African Leadership Academy</strong> <i class="fas fa-external-link-alt"></i></a> - South Africa</p>
                     <ul>
                         <li>Worked in a team of three students across different time zones to investigate and analyze the cause of high school students' dropout rate in South Africa post-COVID-19 pandemic. </li>
                         <li>Developed an organizational re-integration framework to revamp school curriculum and accomodate periodic return to school which reduced the dropout rate by 50%. </li>
@@ -624,7 +625,7 @@ useEffect(() => {
                  <div class="timeline-item">
                     <div class="timeline-date">May 2022 - June 2022</div>
                     <h3 class="timeline-title">Design Thinking Intern</h3>
-                    <p class="timeline-subtitle">Ashesi Entrepreneurship and Design Lab - Accra, Ghana</p>
+                    <p class="timeline-subtitle"> <a href="http://www.ashesi.edu.gh" target="_blank" rel="noopener noreferrer"> <strong>Ashesi Entrepreneurship and Design Lab</strong> <i class="fas fa-external-link-alt"></i></a> - Accra, Ghana</p>
                     <ul>
                         <li>Co-led the remodification of service delivery and go-to market strategy for a flagship Learning Management System (LMS) SaaS product</li>
                         <li>Researched competitors and developed best competitive strategy to ensure penetration and adoption of product by private secondary schools in Ghana</li>
@@ -925,7 +926,7 @@ useEffect(() => {
         </footer>
 
         {/* Back to Top Button */}
-        <a href="#about" className="back-to-top">
+        <a href="#home" className="back-to-top">
           <i className="fas fa-arrow-up"></i>
         </a>
       </div>
