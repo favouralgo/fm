@@ -9,6 +9,16 @@ import tubPneuImage from './assets/tubpneu_prediction.png';
 import lungDetectImage from './assets/lung_detect.png';
 import customerChurnImage from './assets/customer_churn.png';
 import performancePredictionImage from './assets/performance_prediction.png';
+import thesisProjectImage from './assets/thesis_project.png';
+import yaleImage from './assets/yale_paths.png';
+import openSourceImage from './assets/opensource_research.png';
+import communityHealthImage from './assets/communityhealth_award.png';
+import bodymassIndexImage from './assets/bodymass_index.png';
+import eduhackImage from './assets/ashesi_dlab.png';
+import designThinkingImage from './assets/ashesi_entrepreneurship.png';
+import twentyFiveawardImage from './assets/25under25.png';
+import mcfScholarshipImage from './assets/mcf_ashesi.png';
+import isfFinalistImage from './assets/isf_finalist.png';
 
 const Portfolio = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -217,7 +227,7 @@ useEffect(() => {
             <nav>
             {/* Attach clickable url Link to name */}
               <div className="logo">
-                <a href="#home"> <strong>Favour</strong><span> Madubuko</span></a>
+                <a href="#home"> <strong>F</strong><span>M</span></a>
               </div>
               <ul className={`nav-links ${isMenuOpen ? 'active' : ''}`} id="navLinks">
                 <li><a href="#home" className={activeSection === 'home' ? 'active' : ''}>Home</a></li>
@@ -264,7 +274,7 @@ useEffect(() => {
               </div>
               <div className="about-text">
                 <h2 className="section-title">About Favour</h2>
-                <p style={{ textAlign: "justify" }}> Hi, I’m Favour. I am a first class graduate in Management Information Systems with a peculiar focus in Computer Science from Ashesi University. 
+                <p style={{ textAlign: "justify" }}> Hi, I’m Favour Madubuko. I am a first class graduate in Management Information Systems with a peculiar focus in Computer Science from Ashesi University. 
                 I am a Software & AI Engineer and a Digital Health Advocate.
                 {/* A fun fact about me is that I started my IT journey working at a cybercafe for my uncle from the age of 12; I reached and won the fastest level of Mavis Beacon Penguin Crossing game (I bet you can't beat my typing speed!).  */}
                   </p>
@@ -384,7 +394,7 @@ useEffect(() => {
                 <div className="projects-grid">
                       <div className="project-card">
                           <div class="project-img">
-                            <img src= {customerChurnImage} alt="Customer Churn Prediction" />
+                            <img src= {openSourceImage} alt="open-source-rag-image" />
                           </div>
                         <div className="project-content">
                           <div class="project-links">
@@ -398,7 +408,7 @@ useEffect(() => {
 
                        <div className="project-card">
                           <div class="project-img">
-                            <img src= {customerChurnImage} alt="Customer Churn Prediction" />
+                            <img src= {thesisProjectImage} alt="thesis-project-image" />
                           </div>
                         <div className="project-content">
                           <div class="project-links">
@@ -412,7 +422,7 @@ useEffect(() => {
 
                         <div className="project-card">
                           <div class="project-img">
-                            <img src= {customerChurnImage} alt="Customer Churn Prediction" />
+                            <img src= {bodymassIndexImage} alt="body-mass-index-image" />
                           </div>
                          <div className="project-content">
                           <div class="project-links">
@@ -426,7 +436,7 @@ useEffect(() => {
 
                         <div className="project-card">
                           <div class="project-img">
-                            <img src= {customerChurnImage} alt="Customer Churn Prediction" />
+                            <img src= {isfFinalistImage} alt="ISF-finalist" />
                           </div>
                           <div className="project-content">
                             <div class="project-links">
@@ -439,7 +449,7 @@ useEffect(() => {
 
                         <div className="project-card">
                           <div class="project-img">
-                            <img src= {customerChurnImage} alt="Customer Churn Prediction" />
+                            <img src= {mcfScholarshipImage} alt="mcf-scholarship" />
                           </div>
                           <div className="project-content">
                             <div class="project-links">
@@ -452,7 +462,7 @@ useEffect(() => {
 
                         <div className="project-card">
                           <div class="project-img">
-                            <img src= {customerChurnImage} alt="Customer Churn Prediction" />
+                            <img src= {yaleImage} alt="yale-paths-scholar" />
                           </div>
                           <div className="project-content">
                             <div class="project-links">
@@ -465,7 +475,7 @@ useEffect(() => {
 
                         <div className="project-card">
                           <div class="project-img">
-                            <img src= {customerChurnImage} alt="Customer Churn Prediction" />
+                            <img src= {twentyFiveawardImage} alt="25under25-health-innovator-nominee" />
                           </div>
                           <div className="project-content">
                             <div class="project-links">
@@ -478,7 +488,7 @@ useEffect(() => {
 
                         <div className="project-card">
                           <div class="project-img">
-                            <img src= {customerChurnImage} alt="Customer Churn Prediction" />
+                            <img src= {communityHealthImage} alt="community-health-innovation-bootcamp" />
                           </div>
                           <div className="project-content">
                             <div class="project-links">
@@ -491,7 +501,7 @@ useEffect(() => {
 
                         <div className="project-card">
                           <div class="project-img">
-                            <img src= {customerChurnImage} alt="Customer Churn Prediction" />
+                            <img src= {designThinkingImage} alt="design-and-entrepreneurship" />
                           </div>
                           <div className="project-content">
                             <div class="project-links">
@@ -504,7 +514,7 @@ useEffect(() => {
 
                         <div className="project-card">
                           <div class="project-img">
-                            <img src= {customerChurnImage} alt="Customer Churn Prediction" />
+                            <img src= {eduhackImage} alt="design-thinking-hackathon" />
                           </div>
                           <div className="project-content">
                             <div class="project-links">
@@ -517,7 +527,7 @@ useEffect(() => {
 
                          <div className="project-card">
                           <div class="project-img">
-                            <img src= {customerChurnImage} alt="Customer Churn Prediction" />
+                            <img src= {eduhackImage} alt="dlab-eduhack-hackathon" />
                           </div>
                           <div className="project-content">
                             <div class="project-links">
