@@ -28,6 +28,24 @@ const Portfolio = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const typedTextRef = useRef(null);
   const [stars, setStars] = useState([]);
+  const [theme, setTheme] = useState(() => {
+    // Check if there's a saved theme in localStorage
+    const savedTheme = localStorage.getItem('theme');
+    return savedTheme || 'light';
+  });
+
+  // Toggle theme function
+  const toggleTheme = () => {
+    const newTheme = theme === 'light' ? 'dark' : 'light';
+    setTheme(newTheme);
+    localStorage.setItem('theme', newTheme);
+    document.documentElement.setAttribute('data-theme', newTheme);
+  };
+
+  // Set initial theme on component mount
+  useEffect(() => {
+    document.documentElement.setAttribute('data-theme', theme);
+  }, [theme]);
 
   // Typed text effect
   useEffect(() => {
@@ -239,12 +257,14 @@ useEffect(() => {
                 <li><a href="#contact" className={activeSection === 'contact' ? 'active' : ''}>Contact</a></li>
               </ul>
 
-              {/* <div className="theme-toggle" onClick={toggleTheme}>
-                <i className={`fas ${theme === 'dark' ? 'fa-sun' : 'fa-moon'}`}></i>
-              </div> */}
+              <div className="nav-content">
+                <div className="theme-toggle" onClick={toggleTheme}>
+                  <i className={`fas ${theme === 'dark' ? 'fa-sun' : 'fa-moon'}`}></i>
+                </div>
 
-              <div className="menu-toggle" onClick={() => setIsMenuOpen(!isMenuOpen)}>
-                <i className={`fas ${isMenuOpen ? 'fa-times' : 'fa-bars'}`}></i>
+                <div className="menu-toggle" onClick={() => setIsMenuOpen(!isMenuOpen)}>
+                  <i className={`fas ${isMenuOpen ? 'fa-times' : 'fa-bars'}`}></i>
+                </div>
               </div>
             </nav>
           </div>
