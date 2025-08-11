@@ -419,7 +419,7 @@ useEffect(() => {
                         <div className="project-content">
                           <div class="project-links">
                             <span className="tech-tag">Research</span>
-                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Read Here</a>
+                            <a href="https://arxiv.org/abs/2502.15722" target="_blank"><i class="fas fa-external-link-alt"></i> Read Here</a>
                           </div>
                           <br />
                           <p className="project-desc">Open-Source Retrieval Augmented Generation (RAG) Framework for Retrieving Accurate Medication Insights from Formularies for African Healthcare Workers</p>
@@ -447,7 +447,7 @@ useEffect(() => {
                          <div className="project-content">
                           <div class="project-links">
                             <span className="tech-tag">Research Project</span>
-                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Read Here</a>
+                            <a href="https://youtu.be/WtqHcU2t9AE" target="_blank"><i class="fas fa-external-link-alt"></i> Watch Here</a>
                           </div>
                           <br />
                           <p className="project-desc">Exploring the relationship between alcohol consumption and obesity</p>
