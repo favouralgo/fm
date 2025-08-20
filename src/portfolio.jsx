@@ -370,6 +370,7 @@ useEffect(() => {
                         <li>SQL</li>
                         <li>NumPy</li>
                         <li>Pandas</li>
+                        <li>PowerBI</li>
                         <li>Seaborn</li>
                         <li>MS Excel</li>
                         <li>Matplotlib</li>                        
@@ -587,7 +588,7 @@ useEffect(() => {
                     <h3 class="timeline-title">Data Scientist (Machine Learning Focus) </h3>
                     <p class="timeline-subtitle"> <a href="https://axumai.org/" target="_blank" rel="noopener noreferrer"> <strong>Axum AI</strong> <i class="fas fa-external-link-alt"></i></a> - Illinois, USA</p>
                     <ul>
-                        <li>Developed an NER-based document extraction pipeline that improved medical data accuracy by 40%, streamlining drug-related information retrieval.</li>
+                        <li>Built NER-powered document extraction pipeline that improved medical data extraction by 40% from formularies</li>
                         <li>Fine-tuned LLMs for pharmaceutical applications, reducing query response time by 20% while maintaining domain-specific accuracy.</li>
                         <li>Scaled data processing workflows to handle 1K+ medical documents, ensuring efficient drug information extraction.</li>
                         <li>Automated preprocessing and validation steps, cutting manual review time by 30% and enhancing dataset reliability.</li>
@@ -608,7 +609,7 @@ useEffect(() => {
 
                 <div class="timeline-item">
                     <div class="timeline-date">January 2024</div>
-                    <h3 class="timeline-title">Research & Data Intern</h3>
+                    <h3 class="timeline-title">Research & Data Consulting</h3>
                     <p class="timeline-subtitle"> <a href="http://www.redish.com" target="_blank" rel="noopener noreferrer"> <strong>Re:Dish</strong> <i class="fas fa-external-link-alt"></i></a> - California, USA</p>
                     <ul>
                         <li>Led a cross-functional team of 5 business and engineering students to analyze low reusable plastic adoption in California, identifying key barriers (cost, convenience, awareness) through primary research and market analysis</li>
@@ -635,7 +636,7 @@ useEffect(() => {
                     <h3 class="timeline-title">Co-founder and Strategy Lead</h3>
                     <p class="timeline-subtitle"> <a href="http://myscholarshub.org" target='_blank'> <strong>myScholarsHub</strong> <i class="fas fa-external-link-alt"></i></a> - Accra, Ghana</p>
                     <ul>
-                        <li>Launched a college EdTech advisory and consultant platform connecting high-school students with with great academic potential from low-income backgrounds to scholarship opportunities.</li>
+                        <li>Launched a college EdTech advisory and consultant platform connecting high-school students with great academic potential from low-income backgrounds to scholarship opportunities.</li>
                         <li>Secured $1000 seed funding from the Coca-Cola Foundation, and managed budget/financial allocation for product development and student outreach programs.</li>
                         <li>Established partnerships with 5 local high schools to test the platform, leading to 10+ student admissions to choice colleges between time period of 2022-2023.</li>
                     </ul>
