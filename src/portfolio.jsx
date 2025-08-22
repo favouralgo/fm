@@ -585,7 +585,7 @@ useEffect(() => {
 
               <div class="timeline-item">
                     <div class="timeline-date">May 2024 - June 2025</div>
-                    <h3 class="timeline-title">Data Scientist (Machine Learning Focus) </h3>
+                    <h3 class="timeline-title">Data Scientist (Machine Learning and NLP) </h3>
                     <p class="timeline-subtitle"> <a href="https://axumai.org/" target="_blank" rel="noopener noreferrer"> <strong>Axum AI</strong> <i class="fas fa-external-link-alt"></i></a> - Illinois, USA</p>
                     <ul>
                         <li>Built NER-powered document extraction pipeline that improved medical data extraction by 40% from formularies</li>
